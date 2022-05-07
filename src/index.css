@@ -1,0 +1,60 @@
+* {
+  font-family: Helvetica,Arial, sans-serif;
+}
+
+
+body {
+  padding: 60px;
+}
+
+.header-main {
+  width: 100%;
+  font-size: 45px;
+  font-weight: bold;
+
+  background-color: #282c34;
+  color: #ffff;
+}
+input {
+  padding: 20px 0px 0px 00px;
+  color: black;
+  font-size: 1.3rem;
+  width: 100%;
+  border-style: none none ridge none;
+  outline: none;
+}
+
+.card-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit,
+  minmax(300px, 1fr));
+  gap: 0px;
+
+}
+
+
+.card {
+  
+  border: 1px solid grey;
+  border-radius: 20px;
+  overflow: hidden;
+  margin-bottom: 10px;
+  margin-right: 10px;
+  
+}
+
+.card p {
+  padding: 5px;
+  text-align: center;
+
+}
+.card img {
+  max-height: 170px;
+  margin: 20px 30px 0px ;
+}
+@media screen and (max-width: 600px) {
+  body {
+    padding: 0px;
+  }
+}
+
